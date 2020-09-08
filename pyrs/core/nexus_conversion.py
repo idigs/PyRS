@@ -72,14 +72,15 @@ def calculate_sub_run_time_average(log_property, time_filter) -> float:
 
 
 class Splitter:
-    r"""
-    Time splitter
 
-    Parameters
-    ----------
-    runObj: ~mantid.
-    """
     def __init__(self, runObj):
+        r"""
+        Time splitter
+
+        Parameters
+        ----------
+        runObj: ~mantid.
+        """
         self._log = Logger(__name__)
 
         # verify the scan index exists
